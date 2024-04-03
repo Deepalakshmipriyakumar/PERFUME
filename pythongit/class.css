@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:black;
+    color:white;
+    padding:15px;
+}
+h1,li,ul{
+    display:inline;
+}
+ul{
+    margin-left:60%
+}
+li{
+    color:gray
+    
+}
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+input{
+    width:60%;
+    padding:20px;
+}
+.search{
+    padding:50px;
+    text-align:center; 
+}
+.box{
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    display:inline-block;
+    width:255px;
+    padding:80px;
+}
+.box:hover{
+    background-color: black;
+    color:white;
+}
+.about{
+    text-align:center;
+    margin:20px;
+}
+.contanct{
+    padding:20px;
+    text-align:center;
+    background-color: black;
+    color:white;
+}
